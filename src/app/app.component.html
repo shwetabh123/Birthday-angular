@@ -1,0 +1,36 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+ <div style="text-align: center">
+    <h1>Welcome to {{title}} </h1>
+  <img width="250"src="https://i.ytimg.com/vi/pG25XhhEMAo/maxresdefault.jpg">
+  <img width="250"src="https://scontent.fblr11-1.fna.fbcdn.net/v/t1.0-9/10686808_834658326574227_6328530574365614719_n.jpg?_nc_cat=108&_nc_sid=e007fa&_nc_ohc=-aTDYXM8xykAX9tTO8X&_nc_ht=scontent.fblr11-1.fna&oh=ca2585d91d04921bd8d7cea521e823aa&oe=5EA6A98D">
+</div>
+<div class="main"  >
+ <div class="addItem">
+<tr>     <th>Name</th>    
+    <td><input [(ngModel)]="newItem" placeholder="Add Name" class="addText"></td>
+    <button (click)="pushName()" > Add</button>
+    <th>DOB </th> 
+    <td><input  [(ngModel)]="newItem2"  placeholder="Add DOB" class="addText"></td>
+    <button  (click)="pushDOB()" > Add</button>
+    
+  </tr>
+</div>
+<table style="border-spacing: 100px;">
+<tr><td>
+<ul><li *ngFor="let i of items,let ind =index" >
+      {{i}}
+  <span (click)="deleteName(ind)">x</span>
+  </li>  </ul>
+</td>
+<td>
+<ul><li *ngFor="let i of items2,let ind =index" >
+       {{i}}
+   <span (click)="deleteDOB(ind)">x</span>
+  </li> </ul>
+</td>
+</tr>
+</table>
+</div>
+</html>

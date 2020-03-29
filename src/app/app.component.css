@@ -1,0 +1,130 @@
+.main
+{
+
+width:500px;
+text-align:center;
+margin:0 auto;
+border:2px solid #ADFF2F;
+background-color: #ffff00;
+margin-top: 20px;
+font-family: sans-serif;
+    
+}
+
+h1{
+    text-align:center;  
+
+    background-color: #f64a8a;
+    padding: 30px 0px;
+
+    margin-top: 0px;
+
+
+}
+th{
+    text-align:center;  
+   
+    padding: 30px 0px;
+
+    margin-top: 0px;
+
+
+}
+
+td{
+    text-align:center;  
+   
+    padding: 30px 0px;
+
+    margin-top: 10px;
+
+    margin-left: 10px;
+
+    width:1000px;
+
+    height: 50px;
+}
+table
+{
+    border-spacing: 10px;
+
+}
+
+
+
+ul{
+
+
+list-style: none;
+
+font-size:20px;
+color: #686868;
+
+margin-left:-10px;
+
+margin-bottom: 0px;
+
+margin-right: 10px;
+
+}
+
+
+li{
+
+border-bottom: 1px solid #ededed;
+background-color: #f4f4f4;
+
+padding:20px 0px;
+
+margin-bottom: 1px;
+
+margin-right: 0px;
+margin-left: 0px;
+width:100px;
+
+
+}
+
+li span{
+
+cursor:pointer;
+position:relative;
+float:right;
+margin-right:0px;
+
+
+}
+.addItem
+{
+
+    position:relative;
+
+padding-bottom: 0px;
+
+margin-left:10px;
+margin-right:10px;
+
+height:80px;
+
+
+
+}
+
+.addText{
+
+width:80%;
+
+height:30px;
+
+
+}
+
+.addItem button{
+
+    width:50px;
+
+    height:30px;
+    
+    background-color: #00FF00;
+
+}
